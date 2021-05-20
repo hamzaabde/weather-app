@@ -49,7 +49,7 @@ const forecastTemplate = (temp, unit, day, imgSrc) =>
     </div>`
 
 // accuweather API
-const API_KEY = 'tKCQmrpLFL2aEuV2OAuBmV730MK2cMtH'
+const API_KEY = ''
 const queryCity = 'hargeisa'
 const API = {
     location: 'http://dataservice.accuweather.com/locations/v1/cities/search',
