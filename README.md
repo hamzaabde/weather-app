@@ -8,7 +8,7 @@ to test the please make sure to fullfill the following.
 
 ### Get your API_KEY
 
-This app uses the accuweather apis, I tested it on my ** API_KEY **.
+This app uses the accuweather apis, I tested it on my **API_KEY**.
 For security reasons i didn't include my **API_KEY**, so to test or
 further improve the app, get your own _[accuweather](https://https://developer.accuweather.com/)_ account.
 
