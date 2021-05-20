@@ -1,0 +1,45 @@
+[
+    {
+        "location": "hargeisa, somalia",
+        "current": {
+            "time": "day",
+            "temperature": 28,
+            "windSpeed": 15,
+            "humidity": 60,
+            "rainProbability": 0.2,
+            "sky": "cloudy"
+        },
+        "forecast": [
+            {
+                "date": "2021-5-19",
+                "temperature": 24,
+                "sky": "cloudy",
+                "rainProbability": 0.4
+            },
+            {
+                "date": "2021-5-19",
+                "temperature": 24,
+                "sky": "cloudy",
+                "rainProbability": 0.4
+            },
+            {
+                "date": "2021-5-19",
+                "temperature": 24,
+                "sky": "cloudy",
+                "rainProbability": 0.4
+            },
+            {
+                "date": "2021-5-19",
+                "temperature": 24,
+                "sky": "cloudy",
+                "rainProbability": 0.4
+            },
+            {
+                "date": "2021-5-19",
+                "temperature": 24,
+                "sky": "cloudy",
+                "rainProbability": 0.4
+            }
+        ]
+    }
+]

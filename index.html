@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Weather App</title>
+        <link rel="stylesheet" href="style.css" />
+        <script defer src="script.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="hidden" id="error">
+                <span id="message" class="message"></span>
+                <span id="query"></span>
+                <span id="url"></span>
+                <span id="api-key"></span>
+                <button class="button" id="reload">reload</button>
+            </div>
+            <div id="spinner" class="spinner fade">
+                <div class="spinner-icon">
+                    <img src="./icons/spinner.png" alt="loading..." />
+                </div>
+            </div>
+            <div id="app" class="app">
+                <div id="location-selector">
+                    <span id="location">Hargeisa, Somaliland</span>
+                </div>
+                <span class="heading">Today</span>
+                <div class="condition">
+                    <div class="main-info">
+                        <div class="img">
+                            <img id="main-info-img" src="" alt="clear" />
+                        </div>
+                        <div class="temperature">
+                            <span class="text-large"
+                                ><span id="temperature">30</span> &deg;
+                                <span id="temp-unit" class="symbol-large"
+                                    >C</span
+                                ></span
+                            >
+                        </div>
+                    </div>
+                    <div class="extra-info">
+                        <div class="humidity">
+                            <div class="img">
+                                <img
+                                    src="./icons/humidity.png"
+                                    alt="humidity"
+                                />
+                            </div>
+                            <span class="text"
+                                ><span id="humidity">14</span>
+                                <span class="symbol">%</span></span
+                            >
+                        </div>
+                        <div class="wind-speed">
+                            <div class="img">
+                                <img
+                                    src="./icons/wind-speed.png"
+                                    alt="wind speed"
+                                />
+                            </div>
+                            <span class="text"
+                                ><span id="wind-speed">12</span>
+                                <span class="symbol">km/h</span></span
+                            >
+                        </div>
+                    </div>
+                </div>
+                <span class="heading">For the next five days</span>
+                <div id="forecasts" class="forecast-container"></div>
+            </div>
+        </div>
+    </body>
+</html>
